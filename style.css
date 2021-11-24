@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 body {
     font-family: fantasy,course,sans-serif;
@@ -31,6 +32,7 @@ a:hover {
     background-color: rgba(31, 31, 31, 0.1);
     padding: 15px;
     border-radius: 10px;
+    color: teal;
 }
 #capa {
     background-repeat: no-repeat;
@@ -48,4 +50,17 @@ a:hover {
     margin-top: -120px;
     margin-left: 250px;
     
+}
+#texto, h1, p {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 30%;
+    line-height: 20px;
+}
+strong {
+    color: teal;
+}
+#footer {
+    background-color: rgba(108, 117, 125, 0.1) ;
 }
