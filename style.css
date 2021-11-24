@@ -4,63 +4,160 @@
     font-family: monospace;
 }
 body {
-    font-family: fantasy,course,sans-serif;
     background-color: #e9ecef;
-    
 }
-ul {
+#menu {
     background-color: #6c757d;
-    list-style:none;
+    position: relative;
+    z-index: 1;
+}
+#menu ul {
+    list-style: none;
     text-align: center;
-    padding: 15px 10px;
-    word-spacing: 50px;
-    position:relative;
-    z-index: 99;
-    
 }
-ul li {
-    display: inline;
-    margin: 10px 5px 10px 5px;
+#menu ul li {
+    display: inline-block;
+    padding: 15px 20px;
 }
-ul li a {
+#menu ul li a{
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: #fff;
+}
+#menu ul li a:hover {
+    color: teal;
+    background-color: rgba(31, 31, 31,0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+#imagens #capa {
+    width: 100%;
+    position: relative;
+    top: -120px;
+}
+#frasedeefeito {
+    width: 210px;
+    border-radius: 10px;
+    font-size: 115%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    z-index: 2;
+    color: rgba(169, 169, 169, 1);
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.5);
+}
+#imagens #perfil{
+    border-radius: 50%;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1,h2, strong em {
+    color: teal;
+    line-height: 25px;
+}
+#textotodo {
+    width: 500px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%,-50%);
+}
+#texto {
+    line-height: 25px;
+}
+#minhashabilidades {
+    position: relative;
+    top: 230px;
+    left: 50%;
+    padding: 50px 50px;
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+#habilidades {
+    width: 500px;
+    height: 500px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: rgba(108, 117, 125, 0.2);
+    list-style: none;
+    line-height: 25px;
+    position: relative;
+    left: 50%;
+    top: 280px;
+    transform: translate(-50%,-50%); 
+}
+.topicos {
+    text-align: left;
     
 }
-a:hover {
-    background-color: rgba(31, 31, 31, 0.1);
-    padding: 15px;
+strong p {
+    color: teal;
+}
+.impar {
+    font-weight: italic;
+    color:teal;
+}
+#influencias h2 {
+    text-align: center;
+    width: 200px;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+#influencias ul {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 290px;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+#influencias li {
+    list-style: none;
+    padding: 20px 0;
+    border-radius: 10px;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    top: 60px;
+    transform: translate(-50%,-50%);
+    padding: 30px 20px;
+    border: 1px solid teal;
+    margin: 20px 0;
+}
+#influencias li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+#influencias li a:hover {
+    background-color: rgba(169, 169, 169, 0.2);
+    padding: 20px 40px;
     border-radius: 10px;
     color: teal;
 }
-#capa {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+.icones {
+    width: 40px;
+}
+.pensando {
     position: relative;
-    margin-top: -150px;
-    
+    left: 40%;
 }
-#perfil {
-    border-radius: 50%;
-    border:solid 0.5px white;
-    width: 300px;
+.ninja {
     position: relative;
-    margin-top: -120px;
-    margin-left: 250px;
-    
+    left: 30%;
+    top: 30px;
 }
-#texto, h1, p {
-    width: 50%;
-    text-align: center;
-    display: inline-block;
-    margin: 0 30%;
-    line-height: 20px;
-}
-strong {
-    color: teal;
-}
-#footer {
-    background-color: rgba(108, 117, 125, 0.1) ;
+.foguete {
+    position: relative;
+    left: 65%;
+    top: 20px;
 }
